@@ -24,7 +24,7 @@
 }
 .header__title {
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
@@ -41,6 +41,7 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 2;
+  margin: 0;
 }
 .header__link {
   color: #2f80ed;
@@ -80,7 +81,7 @@
 .description {
   display: flex;
   justify-content: center;
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 .two-columns {
   display: flex;
@@ -113,7 +114,7 @@
 }
 
 .digits {
-  padding: 100px 0;
+  padding: 50px 0 100px;
 }
 .section-title {
   width: 60%;
@@ -252,7 +253,7 @@
   font-size: 18px;
   line-height: 25px;
 }
-.footer__heading {
+.footer__column-heading {
   color: white;
   margin: 0 0 20px;
   font-size: 18px;
